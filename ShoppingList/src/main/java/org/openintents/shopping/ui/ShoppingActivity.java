@@ -43,7 +43,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v4.view.ActionProvider;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -1307,7 +1307,7 @@ public class ShoppingActivity extends DistributionLibraryFragmentActivity
         mTitle = mDrawerTitle = getTitle();
         if (mDrawerLayout != null) {
             mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout,
-                    R.drawable.ic_drawer, R.string.drawer_open, R.string.drawer_close) {
+                       R.string.drawer_open, R.string.drawer_close) {
 
                 /**
                  * Called when a drawer has settled in a completely closed state.

@@ -81,7 +81,7 @@ dependencies {
 
     compile project(':ShoppingListLibrary')
     compile 'org.openintents:distribution-lib:1.0.+'
-    compile 'com.android.support:appcompat-v7:20.+'
+    compile 'com.android.support:appcompat-v7:21.+'
     compile files('libs/sensorsimulator-lib.jar')
     compile files('libs/OIShoppingListMyBackupPro.jar')
     compile files('libs/pollfish.jar')
